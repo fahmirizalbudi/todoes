@@ -1,60 +1,82 @@
-<p align="center">
-  <img src="https://github.com/fahmirizalbudi/todoes/blob/main/todoes_logo_compress.png" alt="Todoes Logo" width="300"/>
-</p>
+<div align="center">
+<a href="https://github.com/fahmirizalbudi/todoes" target="blank">
+<img src="https://raw.githubusercontent.com/JjagoKoding/icon/ffdf2d7026f078d651fe76dc56b706c743b9c9e4/todoes.svg" width="300" alt="Logo" />
+</a>
+
+<br />
+<br />
+
+![](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![](https://img.shields.io/badge/Sanctum-20CDEF?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+</div>
 
 <br/>
 
-# ✅ Todoes
+## ✅ Todoes
 
-Todoes – A simple REST API for managing todo lists.
+Todoes is a simple REST API for managing todo lists. Built in Laravel and Sanctum. This project uses MySQL as the database. Key features include:
 
----
+## ✨ Features
 
-## 🛠️ Tech Stack
+- **⚡ Unlimited Requests:** Handle unlimited API requests without restrictions.
+- **📝 CRUD Operations:** Create, Read, Update, and Delete todo items efficiently.
 
-- Laravel
-- MySQL
+## 👩‍💻 Tech Stack
 
----
+- **Laravel**: A PHP web application framework with expressive, elegant syntax.
+- **Laravel Sanctum**: A featherweight authentication system for APIs.
+- **MySQL**: Open-source relational database management system.
+- **PHP**: A popular general-purpose scripting language that is especially suited to web development.
 
-## ⚙️ Instalation
+## 📦 Getting Started
 
-1. Clone repository:
+To get a local copy of this project up and running, follow these steps.
+
+### 🚀 Prerequisites
+
+- **PHP** (v8.2 or higher).
+- **Composer** (Dependency Manager).
+- **MySQL** (Database server).
+
+## 🛠️ Installation
+
+1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/fahmirizalbudi/todoes.git
    cd todoes
    ```
 
-3. Install dependency:
+2. **Install dependencies:**
+
    ```bash
    composer install
-   cp .env.example .env
+   cp .env .env.example
    php artisan key:generate
    ```
 
-4. Migrate DB & Run API:
+3. **Run migration:**
+
    ```bash
    php artisan migrate
+   ```
+
+4. **Start the development server:**
+
+   ```bash
    php artisan serve
    ```
 
----
+## 📖 Usage
 
-## 🔗 Endpoint
+### ✔ Running the Application
 
-| Method | Endpoint                    | Description             |
-|--------|-----------------------------|-------------------------|
-| GET    | `/api/v1/todoes`                | Get all todo items       |
-| GET    | `/api/v1/todoes/{id}`                | Get a single todo item by ID       |
-| POST    | `/api/v1/todoes`                | Create a new todo item       |
-| PUT    | `/api/v1/todoes/{id}`                | Update an existing todo item (replace all fields)      |
-| DELETE    | `/api/v1/todoes/{id}`                | Delete a todo item by ID       |
-| PATCH    | `/api/v1/todoes/mark-is-complete/{id}`                | Mark a todo item as complete       |
-| PATCH    | `/api/v1/todoes/mark-is-uncompleted/{id}`                | Mark a todo item as uncompleted       |
-| SEARCH    | `/api/v1/todoes/search/{params}`                | Search todo items based on parameters       |
+- **Api development:** `php artisan serve`.
 
----
+> Open [http://localhost:8000](http://localhost:8000) to test it on Postman.
 
-## 🎯 Purpose
+## 📜 License
 
-This project was built to practice building RESTful APIs using Laravel, and MySQL.
+All rights reserved. This project is for educational purposes only and cannot be used or distributed without permission.
