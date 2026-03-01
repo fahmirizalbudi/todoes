@@ -14,33 +14,33 @@
 
 <br/>
 
-## ✅ Todoes
+## Todoes
 
 Todoes is a simple REST API for managing todo lists. Built in Laravel and Sanctum. This project uses MySQL as the database. Key features include:
 
-## ✨ Features
+## Features
 
-- **⚡ Unlimited Requests:** Handle unlimited API requests without restrictions.
-- **📝 CRUD Operations:** Create, Read, Update, and Delete todo items efficiently.
+- **Unlimited Requests:** Handle unlimited API requests without restrictions.
+- **CRUD Operations:** Create, Read, Update, and Delete todo items efficiently.
 
-## 👩‍💻 Tech Stack
+## Tech Stack
 
 - **Laravel**: A PHP web application framework with expressive, elegant syntax.
 - **Laravel Sanctum**: A featherweight authentication system for APIs.
 - **MySQL**: Open-source relational database management system.
 - **PHP**: A popular general-purpose scripting language that is especially suited to web development.
 
-## 📦 Getting Started
+## Getting Started
 
 To get a local copy of this project up and running, follow these steps.
 
-### 🚀 Prerequisites
+### Prerequisites
 
 - **PHP** (v8.2 or higher).
 - **Composer** (Dependency Manager).
 - **MySQL** (Database server).
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
 
@@ -69,14 +69,14 @@ To get a local copy of this project up and running, follow these steps.
    php artisan serve
    ```
 
-## 📖 Usage
+## Usage
 
-### ✔ Running the Application
+### Running the Application
 
 - **Api development:** `php artisan serve`.
 
 > Open [http://localhost:8000](http://localhost:8000) to test it on Postman.
 
-## 📜 License
+## License
 
 All rights reserved. This project is for educational purposes only and cannot be used or distributed without permission.
